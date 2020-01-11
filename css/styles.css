@@ -1,0 +1,311 @@
+		body{background:#EBEBEB;
+		font-family:Tahoma, Geneva, sans-serif;}
+		::-ms-selection{
+			color:#FFF;
+			background-color:#29ab63;
+			}
+		::-moz-selection{
+			color:#FFF;
+			background-color:#29ab63;
+			}
+		::-webkit-selection{
+			color:#FFF;
+			background-color:#29ab63;
+			}
+			::selection{
+			color:#FFF;
+			background-color:#29ab63;
+			}
+			::-webkit-scrollbar { background:#fff; width: 7px; height: 7px;}
+		::-webkit-scrollbar-thumb {-webkit-border-radius: 10px; background-color:#666;}
+		::scrollbar { background:#fff; width: 7px; height: 7px;}
+		::scrollbar-thumb {-webkit-border-radius: 10px; background-color:#666; border-radius: 10px;}
+		::-moz-scrollbar { background:#fff; width: 7px; height: 7px;}
+		::-moz-scrollbar-thumb {-webkit-border-radius: 10px; background-color:#666; border-radius: 10px;}
+		#content{width:100%;    height:100%;}
+													/*start of styles*/
+#head{width:50%; float:left; padding-top:200px; padding-left:50px;}
+	.logo{height:250px; width:300px;}
+.paragraph{font-family:Tahoma, Geneva, sans-serif; font-size:18px; color:#999;}
+#forms{ margin-top:170px; margin-right:40px; width:400px;; background:#FFF; padding-bottom:10px; padding-top:40px; padding-right:40px; padding-left:40px; float:right; border-radius:6px;}
+.clear{clear:both;}
+/*start of forms*/
+
+.fucking-input {
+font-family:Tahoma, Geneva, sans-serif;  font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #EBEBEB;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+
+}
+
+.fucking-input:focus{
+	box-shadow: 0;
+	color:#29ab63;
+	outline-color:#29ab63;
+  padding: 13px 13px 13px 54px;
+}
+
+
+/* Icons ---------------------------------- */
+#username{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#username:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#password{	background-image:url(http://findicons.com/files/icons/770/token_dark/128/lock.png);
+
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#password:focus{
+background-image:url(http://findicons.com/files/icons/770/token_dark/128/lock.png);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:#fff;
+}
+/*submit*/
+#aaa{float:right;}
+
+#submit{
+position: relative;
+top: -15px;
+background: #29ab63;
+font-family: Tahoma, Geneva, sans-serif;
+/* font-weight: 500; */
+font-size: 15px;
+box-shadow: 0;
+border: 0px;
+padding: 6px 25px;
+border-radius: 3px;
+color: #fff;
+cursor: pointer;
+-webkit-transition-duration: 1s;
+-webkit-transition-property: all;
+-ms-transition-duration: 1s;
+-ms-transition-property: all;
+transition-duration: 1s;
+transition-property: all;
+}
+
+#submit:hover{background:#ececee; color:#29ab63;}
+																/*submit done*/
+
+															/*fucking check box*/
+
+
+.checkboxFive {
+	position: relative;
+}
+.remember{ position:absolute; 	display:inline-block;
+ bottom:-14px; color:#C5C5C5;}
+#checkboxFiveInput{opacity:0;}
+.checkboxFive label {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: #eee;
+	border:1px solid #ddd;
+	border-radius:12px;
+}
+.checkboxFive label:after {
+	opacity: 0.2;
+	content: '';
+	position: absolute;
+	width: 6px;
+	height: 3.5px;
+	background: transparent;
+		top: 3px;
+		left: 3px;
+	border: 3px solid #29ab63;
+	border-top: none;
+	border-right: none;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.checkboxFive label:hover::after {
+	opacity: 0.5;
+}
+
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+}
+														/*fucking check box end*/
+															/*end of forms*/
+.aaaa{margin-top:70px; text-align:center;}
+.aaaa a {display:block; padding:5px;}
+#signup{text-decoration:none; color:#29ab63; font-size:18px; transition-duration:1s; transition-property:all;
+-webkit-transition-duration:1s;
+-webkit-transition-property:all;
+-ms-transition-duration:1s;
+-ms-transition-property:all;}
+#signup:hover{color:#ccc;}
+														/*-----------footer---------------*/	
+footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	}
+#footer{list-style:none;}
+#footer li{padding:5px; display:inline; color:#29ab63;}
+#footer li a{color:#999; text-decoration:none; transition:all 1s; -webkit-transition:all 1s; -moz-transition:all 1s; -ms-transition:all 1s;}
+#footer li a:hover{color:#29ab63;}
+									/*--------------footer end----------------*/
+                                                             /*load*/
+#loaddiv{position:fixed;
+left:0;
+top:0;
+width:100%;
+height:100%;
+margin:auto;
+background-color:#fff;
+z-index:99999;}
+.loadtext{text-align:center;
+padding-top:320px; font-family:Tahoma, Geneva, sans-serifl; font-size:25px; animation-name:load; animation-duration:10s; animation-iteration-count:infinite;
+-webkit-animation-name:load;
+-webkit-animation-duration:10s;
+-webkit-animation-iteration-count:infinite;
+-ms-animation-name:load;
+-ms-animation-duration:10s;
+-ms-animation-iteration-count:infinite;
+-o-animation-name:load;
+-o-animation-duration:10s;
+-o-animation-iteration-count:infinite;}
+@-webkit-keyframes load{
+	0%{color:#000; opacity:1;}
+	25%{color:#F00;  opacity:0;}
+	50%{color:#00F;  opacity:1;}
+	75%{color:#0FF;  opacity:0;}
+	100%{color:#29ab63; opacity:1;}
+}
+@keyframes load{
+	0%{color:#000;}
+	25%{color:#F00;}
+	50%{color:#00F;}
+	75%{color:#0FF;}
+	100%{color:#29ab63;}
+	}
+@-ms-keyframes load{
+	0%{color:#000;}
+	25%{color:#F00;}
+	50%{color:#00F;}
+	75%{color:#0FF;}
+	100%{color:#F0F;}
+	}
+@-moz-keyframes load{
+	0%{color:#000;}
+	25%{color:#F00;}
+	50%{color:#00F;}
+	75%{color:#0FF;}
+	100%{color:#F0F;}
+	}
+/*donee*/
+@media (max-width:1170px) and (min-width:768px)
+{#head{width:50%; float:left; padding-top:150px; padding-left:50px;}
+	.logo{height:250px; width:300px;}
+.paragraph{font-family:Tahoma, Geneva, sans-serif; font-size:15px; color:#999;}
+#forms{ margin-top:120px; margin-right:40px; width:250px;; background:#FFF; padding-bottom:10px; padding-top:40px; padding-right:40px; padding-left:40px; float:right; border-radius:6px;}
+.clear{clear:both;}
+#aaa{float:right;}
+}
+@media(min-width: 481px) and (max-width: 870px) { 
+#aaa{text-align:center; float:none; margin-top:10px;}
+	#head{ text-align:center; margin:auto; float:none; padding-top:0px; padding-left:0px;}
+	.logo{height:250px; width:200px;}
+.paragraph{font-family:Tahoma, Geneva, sans-serif; font-size:18px; color:#999; display:none;}
+#forms{ width:250px; background:#FFF;  text-align:center; margin:auto;
+border-radius:6px; float:none;}
+.clear{clear:none;}
+.fix{text-align:center; margin:Auto;}
+.remember{ position:static;color:#C5C5C5;}
+.checkboxFive {
+	position: relative;
+	text-align:center;
+}
+.checkboxFive label {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	position:absolute;
+	top:18px;
+	left:65px;
+	background: #eee;
+	border:1px solid #ddd;
+	border-radius:12px;
+}
+footer{
+	position:static;
+	}
+
+
+	}
+.error{text-align:center; color:#F00;}
+@media(max-width: 480px) {	#head{ text-align:center; margin:auto; float:none; padding-top:0px; padding-left:0px;}
+	.logo{height:90px; width:180px;}
+.paragraph{font-family:Tahoma, Geneva, sans-serif; font-size:18px; color:#999; display:none;}
+#forms{ width:200px; background:#FFF;  text-align:center; margin:auto;
+border-radius:6px; float:none;}
+.clear{clear:none;} 
+#aaa{text-align:center; float:none; margin-top:10px;}
+.fix{text-align:center; margin:Auto;}
+.remember{ position:static;color:#C5C5C5;}
+.checkboxFive {
+	position: relative;
+	text-align:center;
+}
+
+.checkboxFive label {
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	position:absolute;
+	top:18px;
+	left:39px;
+	background: #eee;
+	border:1px solid #ddd;
+	border-radius:12px;
+}
+footer{
+	position:static;
+	text-align:center;
+	margin:auto;
+	}
+
+}
+.prof {
+    width: 300px;
+    height: 250px;
+    margin-left: 90px;
+}

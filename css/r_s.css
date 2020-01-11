@@ -1,0 +1,103 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family:Hutan Lestari;
+}
+.cont{
+    background-color: #dddcdc;
+    width: 100%;
+    height: 100%;
+}
+.registrycont{
+    width: 800px;
+    height: 500px;
+    margin-top: 60px;
+}
+.nav
+{
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: #dddcdc;
+}
+.btn
+{
+    color: #dddcdc;
+    display: block;
+    transition: all 1s;
+    width: 33.33333%;
+    height: 60px;
+    float: left;
+    position: relative;
+    cursor: default;
+
+}
+
+.btn h4 {
+    margin-top: 20px;
+}
+.registry{
+    background-color: #fff;
+    position:relative;
+    height: 440px;
+}
+#logo{
+    float: left;
+    position:relative;
+    width: 45%;
+    padding-right: 16px;
+    margin-top: 130px;
+    margin-left:2%;
+}
+#logo img{
+    width:100%;
+    position: relative;
+}
+.form 
+{
+    width: 45%;
+    position: relative;
+    margin-right: 2%;
+    margin-top: 110px;
+}
+.regtab{
+    position: relative;
+    width: 95%;
+}
+.regtab tr {
+    width: 100%
+}
+.icon{
+    width: 40px;
+    height: 39px;
+    background-color: #dddcdc;
+}
+input ,select {
+    background-color: #dddcdc;
+    border: none;
+    height: 40px;
+    width: 100%;
+    font-size: medium;
+}
+#regbtn {
+    background-color: #28AE61;
+    
+}
+#agrees {
+    width: 12px;
+    background-color: #fff ;
+}
+														/*-----------footer---------------*/	
+footer{
+	position:absolute;
+	bottom:0;
+	left:0;
+	}
+#footer{list-style:none;}
+#footer li{padding:5px; display:inline; color:#29ab63;}
+#footer li a{color:#999; text-decoration:none; transition:all 1s; -webkit-transition:all 1s; -moz-transition:all 1s; -ms-transition:all 1s;}
+#footer li a:hover{color:#29ab63;}
+									/*--------------footer end----------------*/
